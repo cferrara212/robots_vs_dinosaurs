@@ -18,3 +18,17 @@ dino_one = Dinosaur('rex',2,180)
 dino_two = Dinosaur('raptor',10,75)
 dino_three= Dinosaur('steg',6,95)
 
+
+fleet_one = Fleet()
+
+heard_one = Herd()
+
+fleet_one.add_robot('rowdy')
+fleet_one.add_robot('dino smasher')
+fleet_one.add_robot('ninja')
+
+heard_one.add_dinosaur('rex')
+heard_one.add_dinosaur('raptor')
+heard_one.add_dinosaur('steg')
+
+
