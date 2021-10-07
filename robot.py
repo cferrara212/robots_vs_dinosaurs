@@ -4,4 +4,8 @@ class Robot:
         self.name = name
         self.health = health
         self.weapon = weapon
+    
+    def attack_dino(self,target):
+        damage = self.weapon.attack_power
+        target.health -= damage
 

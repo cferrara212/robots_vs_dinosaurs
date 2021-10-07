@@ -32,3 +32,6 @@ heard_one.add_dinosaur('raptor')
 heard_one.add_dinosaur('steg')
 
 
+robot_one.attack_dino(dino_one)
+dino_one.attack_robot(robot_one)
+print(dino_one.health)
