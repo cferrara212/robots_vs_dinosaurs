@@ -5,5 +5,3 @@ class Herd:
 
     def add_dinosaur(self,dinosaur):
         self.dino_herd.append(dinosaur)
-
-    

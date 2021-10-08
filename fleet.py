@@ -5,4 +5,4 @@ class Fleet:
 
     def add_robot(self,robot):
         self.robot_fleet.append(robot)
-    
+
